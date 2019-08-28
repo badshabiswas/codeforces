@@ -1,0 +1,18 @@
+import java.util.Scanner;
+ 
+public class TheatreSquare_CF_1A {
+    public static void main(String[] args) {
+        long n,m,a,r,p,q;
+ 
+ 
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextLong();
+       m=sc.nextLong();
+       a=sc.nextLong();
+        p=  (long)Math.ceil((1.0*n)/a);
+        q= (long) Math.ceil((1.0*m)/a);
+        r= (long) ((long)p*q);
+ 
+        System.out.println(r);
+    }
+}
